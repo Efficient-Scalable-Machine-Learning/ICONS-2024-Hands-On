@@ -1,0 +1,8 @@
+setuptools
+wheel
+numpy
+matplotlib
+torch
+evnn_pytorch @ git+https://github.com/Efficient-Scalable-Machine-Learning/EvNN.git@03f79300e23c8c676207c58b13d1ba92116848a2
+pijnu @ git+https://github.com/peter17/pijnu@20338e7c29c4316ded53e74bacb0669fa56cdcd6
+mediawiki-parser
