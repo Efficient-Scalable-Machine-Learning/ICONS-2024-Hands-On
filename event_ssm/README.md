@@ -14,7 +14,10 @@ To get started with event-based state-space models, we created tutorials for tra
 - `event_ssm_train.ipynb` shows how to train a model on a reduced version of the Spiking Heidelberg Digits with just two classes. The model converges after few minutes on CPUs.
 
 ## Installation
-Please follow the installation instructions of the official [Event-SSM Repository](https://github.com/Efficient-Scalable-Machine-Learning/event-ssm).
+Please clone the [Event-SSM Repository](https://github.com/Efficient-Scalable-Machine-Learning/event-ssm) and follow the installation instructions of the official.
+
+Additional packages needed:
+- `pip install -r requirements.txt`
 
 We tested with JAX versions between `0.4.20` and `0.4.29`.
 Different CUDA and JAX versions might result in slightly different results.
